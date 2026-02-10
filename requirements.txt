@@ -1,0 +1,19 @@
+# RadioFlow: AI-Powered Radiology Workflow Agent
+# MedGemma Impact Challenge
+# Lightweight version for HuggingFace Spaces (demo mode)
+
+# UI Framework
+gradio==4.44.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Visualization
+plotly>=5.18.0
+matplotlib>=3.8.0
+
+# Data Processing
+numpy>=1.24.0
+
+# Utilities
+requests>=2.31.0

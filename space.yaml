@@ -1,0 +1,26 @@
+# HuggingFace Spaces Configuration
+# RadioFlow - AI-Powered Radiology Workflow Agent
+
+title: RadioFlow - AI Radiology Workflow Agent
+emoji: 🩻
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+sdk_version: 4.44.0
+app_file: app.py
+pinned: true
+license: cc-by-4.0
+
+# Hardware configuration - CPU (free tier)
+hardware: cpu-basic
+
+# Tags for discoverability
+tags:
+  - medical
+  - radiology
+  - chest-x-ray
+  - medgemma
+  - hai-def
+  - healthcare
+  - agentic
+  - multi-agent

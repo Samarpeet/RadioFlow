@@ -1,0 +1,28 @@
+RadioFlow: Multi-Agent Radiology AI
+
+RadioFlow is a multi-agent AI system for chest X-ray analysis built for the MedGemma Impact Challenge.
+
+THE PROBLEM:
+Radiologists face burnout from reading hundreds of X-rays daily. Each study takes 5-10 minutes of manual work.
+
+THE SOLUTION:
+RadioFlow uses 4 specialized AI agents working together:
+
+Agent 1 - The Analyzer: Examines the X-ray image and identifies patterns like opacities, density changes, and structural abnormalities.
+
+Agent 2 - The Interpreter: Powered by MedGemma, it translates visual findings into clinical language and suggests possible diagnoses.
+
+Agent 3 - The Report Writer: Also using MedGemma, it generates professional radiology reports with findings, impressions, and recommendations.
+
+Agent 4 - The Priority Router: Uses MedGemma to assess urgency and flag critical cases needing immediate attention.
+
+WHY IT'S AGENTIC:
+Each agent has one job, passes results to the next, and can be independently improved. This modular design makes the system observable, explainable, and scalable.
+
+MEDGEMMA'S ROLE:
+Google's MedGemma powers 3 of the 4 agents, handling clinical text interpretation and report generation. We run it locally on Mac using MLX with 4-bit quantization.
+
+THE IMPACT:
+This workflow could save radiologists hours daily while ensuring consistent, professional reports for every case.
+
+Built for the MedGemma Impact Challenge 2026.

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Model cache
+.cache/
+*.bin
+*.safetensors
+
+# Gradio
+flagged/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.log
+
+# Large files (keep sample data small)
+*.mp4
+*.wav
+*.mp3
